@@ -1,5 +1,5 @@
 
-# Spring Boot comapnyDemoApi
+# Spring Boot companyDemoApi
 
 A RESTful API for managing products and categories with one-to-many relationships, built with Spring Boot and JPA/Hibernate.
 
