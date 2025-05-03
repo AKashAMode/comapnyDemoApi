@@ -42,16 +42,6 @@ public class ProductController {
             return ResponseEntity.badRequest().body("Error fetching product: " + e.getMessage());
         }
     }
-
-//    @PostMapping
-//    public ResponseEntity<?> createProduct(@RequestBody ProductDto productDto) {
-//        try {
-//            ProductDto createdProduct = productService.createProduct(productDto);
-//            return ResponseEntity.ok("Product created successfully. ID: " + createdProduct.getId());
-//        } catch (Exception e) {
-//            return ResponseEntity.badRequest().body("Error creating product: " + e.getMessage());
-//        }
-//    }
     
     
     @PostMapping
